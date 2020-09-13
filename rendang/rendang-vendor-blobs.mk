@@ -96,33 +96,21 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_ov5648_q5v22e_rendang.so:system/vendor/lib/libmmcamera_ov5648_q5v22e_rendang.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_ov5670_q5v41b.so:system/vendor/lib/libmmcamera_ov5670_q5v41b.so \
     vendor/smartfren/rendang/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/smartfren/rendang/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libprdrmdecrypt.so:system/vendor/lib/libprdrmdecrypt.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
-    vendor/smartfren/rendang/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/smartfren/rendang/proprietary/vendor/lib/hw/flp.default.so:system/vendor/lib/hw/flp.default.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/egl/libESXEGL_adreno.so:system/vendor/lib/egl/libESXEGL_adreno.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/egl/libESXGLESv1_CM_adreno.so:system/vendor/lib/egl/libESXGLESv1_CM_adreno.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/egl/libESXGLESv2_adreno.so:system/vendor/lib/egl/libESXGLESv2_adreno.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/egl/libGLESv1_CM_adreno.so:system/vendor/lib/egl/libGLESv1_CM_adreno.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/egl/libGLESv2_adreno.so:system/vendor/lib/egl/libGLESv2_adreno.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/egl/libq3dtools_adreno.so:system/vendor/lib/egl/libq3dtools_adreno.so \
@@ -141,7 +129,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libsc-a2xx.so:system/vendor/lib/libsc-a2xx.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libsc-a3xx.so:system/vendor/lib/libsc-a3xx.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so \
     vendor/smartfren/rendang/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
@@ -173,10 +160,8 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/lib-rtpcore.so:system/vendor/lib/lib-rtpcore.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/lib-rtpsl.so:system/vendor/lib/lib-rtpsl.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libExtendedExtractor.so:system/vendor/lib/libExtendedExtractor.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libmmparser.so:system/vendor/lib/libmmparser.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libOmxAacDec.so:system/vendor/lib/libOmxAacDec.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libOmxEvrcDec.so:system/vendor/lib/libOmxEvrcDec.so \
@@ -207,17 +192,16 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/smartfren/rendang/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/smartfren/rendang/proprietary/bin/radish:system/bin/radish \
-    vendor/smartfren/rendang/proprietary/bin/rfs_access:system/bin/rfs_access \
     vendor/smartfren/rendang/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/smartfren/rendang/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/smartfren/rendang/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
-    vendor/smartfren/rendang/proprietary/lib/librmnetctl.so:system/lib/librmnetctl.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libcneapiclient.so:system/vendor/lib/libcneapiclient.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
@@ -226,6 +210,12 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/smartfren/rendang/proprietary/bin/time_daemon:system/bin/time_daemon \
     vendor/smartfren/rendang/proprietary/vendor/lib/libTimeService.so:system/vendor/lib/libTimeService.so \
+    vendor/smartfren/rendang/proprietary/lib/libflp.so:system/lib/libflp.so \
+    vendor/smartfren/rendang/proprietary/lib/libqmi_client_helper.so:system/lib/libqmi_client_helper.so \
+    vendor/smartfren/rendang/proprietary/lib/liblqe.so:system/lib/liblqe.so \
+    vendor/smartfren/rendang/proprietary/lib/libwvdrm_L3.so:system/lib/libwvdrm_L3.so \
+    vendor/smartfren/rendang/proprietary/lib/libWVStreamControlAPI_L3.so:system/lib/libWVStreamControlAPI_L3.so \
+    vendor/smartfren/rendang/proprietary/lib/mediadrm/libwvdrmengine.so:system/lib/mediadrm/libwvdrmengine.so \
     vendor/smartfren/rendang/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so
 endif
 
