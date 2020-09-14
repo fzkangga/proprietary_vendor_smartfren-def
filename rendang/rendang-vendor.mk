@@ -49,6 +49,7 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/etc/firmware/venus.mdt:system/etc/firmware/venus.mdt \
     vendor/smartfren/rendang/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/smartfren/rendang/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/smartfren/rendang/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/smartfren/rendang/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/smartfren/rendang/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/smartfren/rendang/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
