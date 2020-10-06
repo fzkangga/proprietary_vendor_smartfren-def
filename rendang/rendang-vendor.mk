@@ -53,7 +53,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
     vendor/smartfren/rendang/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/smartfren/rendang/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/smartfren/rendang/proprietary/lib/libOmxVdecHevc.so:system/lib/libOmxVdecHevc.so \
     vendor/smartfren/rendang/proprietary/lib/libwcnss_qmi.so:system/lib/libwcnss_qmi.so \
     vendor/smartfren/rendang/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/smartfren/rendang/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -120,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libHevcSwDecoder.so:system/vendor/lib/libHevcSwDecoder.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
@@ -177,7 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libmmosal.so:system/vendor/lib/libmmosal.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmqjpeg_codec.so:system/vendor/lib/libmmqjpeg_codec.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
