@@ -53,9 +53,11 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/smartfren/rendang/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/smartfren/rendang/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so \
     vendor/smartfren/rendang/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/smartfren/rendang/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so.so:system/vendor/lib/com.quicinc.cne.api@1.0.so.so \
+    vendor/smartfren/rendang/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/egl/eglSubDriverAndroid.so:system/vendor/lib/egl/eglSubDriverAndroid.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/egl/libEGL_adreno.so:system/vendor/lib/egl/libEGL_adreno.so \
