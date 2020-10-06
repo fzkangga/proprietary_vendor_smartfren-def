@@ -119,7 +119,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
@@ -171,7 +170,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:system/vendor/lib/libmmcamera_tintless_bg_pca_algo.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmcamera_wavelet_lib.so:system/vendor/lib/libmmcamera_wavelet_lib.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmipl.so:system/vendor/lib/libmmipl.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libmmjpeg.so:system/vendor/lib/libmmjpeg.so \
