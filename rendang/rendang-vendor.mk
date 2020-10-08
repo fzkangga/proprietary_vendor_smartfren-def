@@ -53,9 +53,9 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
     vendor/smartfren/rendang/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
     vendor/smartfren/rendang/proprietary/vendor/etc/permissions/qti_permissions.xml:system/vendor/etc/permissions/qti_permissions.xml \
+    vendor/smartfren/rendang/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so \
     vendor/smartfren/rendang/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/smartfren/rendang/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/smartfren/rendang/proprietary/vendor/lib/libwcnss_qmi.so:system/vendor/lib/libwcnss_qmi.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
@@ -123,7 +123,6 @@ PRODUCT_COPY_FILES += \
     vendor/smartfren/rendang/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libimscamera_jni.so:system/vendor/lib/libimscamera_jni.so \
-    vendor/smartfren/rendang/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/lib-imsdpl.so:system/vendor/lib/lib-imsdpl.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/libimsmedia_jni.so:system/vendor/lib/libimsmedia_jni.so \
     vendor/smartfren/rendang/proprietary/vendor/lib/lib-imsqimf.so:system/vendor/lib/lib-imsqimf.so \
@@ -229,7 +228,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     ims \
-    imssettings \
     imscmlibrary \
     libloc_api_v02 \
     libloc_ds_api \
